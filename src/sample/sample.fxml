@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button id="btnStart" layoutX="120.0" layoutY="135.0" mnemonicParsing="false" onAction="#sayHello" text="START">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="labelOne" alignment="CENTER" layoutX="68.0" layoutY="44.0" prefHeight="20.0" prefWidth="173.0" text="Bismillah" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
