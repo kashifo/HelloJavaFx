@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mathgame.MathGameController">
+   <children>
+
+      <Label fx:id="labelTitle" alignment="CENTER" layoutX="64.0" layoutY="28.0" prefHeight="20.0" prefWidth="173.0" text="Math Game" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+
+      <Label fx:id="labelOne" alignment="CENTER" layoutX="115.0" layoutY="89.0" prefHeight="17.0" prefWidth="72.0" text="0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="labelTwo" alignment="CENTER" layoutX="131.0" layoutY="122.0" prefHeight="17.0" prefWidth="38.0" text="0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+
+      <TextField fx:id="textFieldAnswer" layoutX="75.0" layoutY="159.0" promptText="Type your answer here" />
+
+      <Button fx:id="btnSubmit" layoutX="119.0" layoutY="199.0" mnemonicParsing="false" onAction="#setBtnSubmit" text="Submit">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+
+   </children>
+</Pane>

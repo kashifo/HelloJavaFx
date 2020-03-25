@@ -16,5 +16,6 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
+      <Label fx:id="labelCount" alignment="CENTER" layoutX="115.0" layoutY="180.0" prefHeight="17.0" prefWidth="72.0" text="0" />
    </children>
 </Pane>
